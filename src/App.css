@@ -1,0 +1,22 @@
+.main-topbar-buffer {
+  margin-top: 100px;
+  
+}
+
+.main-grid-item {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+h4{
+  border-style: solid;
+  padding-top: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+  }

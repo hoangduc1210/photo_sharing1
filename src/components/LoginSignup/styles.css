@@ -1,0 +1,132 @@
+.show-pass-icon.hide{
+    color: grey;
+}
+
+.show-pass-icon:hover{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #212121;
+    height: fit-content;
+    padding: 15px 50px;
+    margin: 30px;
+    background-color: aquamarine;
+
+}
+
+.login-container h2{
+    font-size: 2rem;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #212121;
+    border-radius: 5px;
+    flex: 8 1 ;
+}
+
+.input-box:focus-within{
+    border-color: #ff0000;
+}
+
+.input-box input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.show-pass-icon{
+    padding: 5px;
+}
+
+.btn-login button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #41B06E;
+    color: #fafafa;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.btn-login button:hover{
+    scale: 1.05;
+}
+
+.link-text{
+    color: #ff0000;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.link-text:hover{
+    color: #ff0000;
+}
+
+.navigation-msg{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.input-box-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-discription{
+    font-weight: bold;
+    flex: 2 1;
+}
+
+.input-box textarea{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    padding: 5px;
+}
+
+.input-box.name{
+    flex: 4 1;
+}
+
+.input-discription.name{
+    flex: 1 1;
+}
+
+.input-discription.first-name{
+    flex: 2.35 1;
+}
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(33, 33, 33, 0.8);
+}
+
+.alert-text{
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

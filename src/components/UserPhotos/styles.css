@@ -1,0 +1,115 @@
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-detail{
+    margin-top: 20px;
+}
+
+.cmt-date{
+    font-style: italic;
+}
+
+.cmt-user{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.comment{
+    margin: 10px 5px;
+}
+
+.comment:not(:last-child){
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.comment span{
+    margin-top: 5px;
+}
+
+.photos-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #212121;
+    padding: 20px 0;
+    flex: 1 1 25%;
+}
+
+.cmt-input{
+    margin: 10px 5px;
+    display: flex;
+    border: 1px solid #212121;
+    border-radius: 5px;
+}
+
+.cmt-input:focus-within{
+    border-color: #ff0000;
+}
+
+.cmt-input input{
+    outline: none;
+    border: none;
+    flex: 1 1;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+}
+
+.cmt-input button{
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    background-color: unset;
+}
+
+.cmt-input button:hover{
+    color: #ff0000;
+}
+
+.photo-time{
+    margin: 5px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.photo-time, .cmt-date{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.photos-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-of-photo{
+    text-align: center;
+}
+
+.photos-flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.back{
+    position: absolute;
+    display: flex;
+    top: 70px;
+}
+
+.back-icon{
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.back-icon:hover{
+    color: #ff0000;
+    cursor: pointer;
+}

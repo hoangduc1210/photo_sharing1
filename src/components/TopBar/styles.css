@@ -1,0 +1,35 @@
+.topbar-appBar {
+  height: 60;
+  justify-content: "center";
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+.sign-out{
+  font-size: 1.5rem;
+}
+
+.sign-out:hover{
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.hello-topbar{
+  text-decoration: unset;
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+  transition: 0.1s;
+  text-align: center;
+  
+}
+.hello-topbar:hover{
+  color: #ff0000;
+  font-size: 1.5rem;
+}
